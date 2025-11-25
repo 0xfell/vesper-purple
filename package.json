@@ -1,20 +1,39 @@
 {
-  "name": "purple-vesper-theme",
-  "displayName": "Purple Vesper Theme",
-  "version": "0.1.0",
-  "description": "A dark purple vesper theme for VS Code",
-  "publisher": "oxfell",
+  "name": "vesper-purple",
+  "displayName": "Vesper Purple Ox",
+  "version": "0.0.1",
+  "description": "A beautiful dark and light Vesper Purple theme with vibrant accents, semantic highlighting, and full UI coverage",
+  "publisher": "0xfell",
+  "author": {
+    "name": "0xfell",
+    "email": "0xfell@proton.me",
+    "url": "https://0xfell.com"
+  },
+  "homepage": "https://0xfell.com",
   "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
   "keywords": [
-    "vscode",
     "theme",
-    "vesper purple",
+    "color-theme",
     "dark",
-    "purple"
+    "light",
+    "purple",
+    "vesper",
+    "syntax",
+    "semantic",
+    "oled",
+    "pink",
+    "vibrant"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oxfell/purple-vesper-vscode"
+    "url": "https://github.com/0xfell/vesper-purple"
+  },
+  "bugs": {
+    "url": "https://github.com/0xfell/vesper-purple/issues"
   },
   "license": "MIT",
   "engines": {
@@ -26,14 +45,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Purple Vesper Light",
-        "uiTheme": "vs",
-        "path": "./themes/purple-vesper-light-color-theme.json"
+        "label": "Vesper Purple Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-purple-dark-color-theme.json"
       },
       {
-        "label": "Purple Vesper Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/purple-vesper-dark-color-theme.json"
+        "label": "Vesper Purple Light",
+        "uiTheme": "vs",
+        "path": "./themes/vesper-purple-light-color-theme.json"
       }
     ]
   }
