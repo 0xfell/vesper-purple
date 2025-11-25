@@ -1,0 +1,40 @@
+{
+  "name": "purple-vesper-theme",
+  "displayName": "Purple Vesper Theme",
+  "version": "0.1.0",
+  "description": "A dark purple vesper theme for VS Code",
+  "publisher": "oxfell",
+  "icon": "images/icon.png",
+  "keywords": [
+    "vscode",
+    "theme",
+    "vesper purple",
+    "dark",
+    "purple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxfell/purple-vesper-vscode"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Vesper Light",
+        "uiTheme": "vs",
+        "path": "./themes/purple-vesper-light-color-theme.json"
+      },
+      {
+        "label": "Purple Vesper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-vesper-dark-color-theme.json"
+      }
+    ]
+  }
+}
